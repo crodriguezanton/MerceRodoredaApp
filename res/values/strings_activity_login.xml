@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="title_activity_login">Inicia Sessió</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Contrasenya</string>
+    <string name="action_sign_in_register"><b>Inicia Sessió</b></string>
+    <string name="action_sign_in_short">Inicia Sessió</string>
+    <string name="menu_forgot_password">He Oblidat la meva Contrasenya</string>
+    <string name="login_progress_signing_in">Iniciant Sessió&#8230;</string>
+    <string name="error_invalid_email">L\'email no és vàlid</string>
+    <string name="error_invalid_password">La contrasenya és molt curta</string>
+    <string name="error_incorrect_password">El nom d\'usuari i/o la contrasenya són incorrectes</string>
+    <string name="error_field_required">Aquest camp és obligatori</string>
+
+</resources>

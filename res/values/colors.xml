@@ -1,0 +1,8 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="deep_red">#990000</color>
+	<color name="emphasis">#31b6e7</color>
+    <color name="bg_gray">#cecbce</color>
+    <color name="emphasis_red">#BEBEBE</color>
+</resources>
