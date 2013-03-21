@@ -25,6 +25,7 @@ public class MyCardAsignatura extends Card {
 		((TextView) view.findViewById(R.id.description)).setText(desc);
 		((TextView) view.findViewById(R.id.timeo)).setText(ho);
 		((TextView) view.findViewById(R.id.time)).setText(hf);
+		//TODO: Cases for colors
 
 		
 		return view;
