@@ -1,7 +1,5 @@
 package com.mercerodoreda.app;
 
-import com.fima.cardsui.views.CardUI;
-
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
@@ -14,8 +12,6 @@ import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
-import android.preference.PreferenceManager;
-import android.support.v4.app.NavUtils;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.TaskStackBuilder;
 import android.text.TextUtils;
@@ -23,7 +19,6 @@ import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
@@ -32,9 +27,12 @@ import android.widget.TextView;
 
 public class LoginActivity extends Activity {
 
+
+	 //private String[] Usuaris = { DBAdapter.COLUMN_EMAILPASS};  
 	private static final String[] Usuaris = new String[] {
 			"foo@example.com:hello", "bar@example.com:world", "carloosrodriguez@gmail.com:ipod4113" };
 
+	
 	/**
 	 * The default email to populate the email field with.
 	 */
@@ -62,8 +60,8 @@ public class LoginActivity extends Activity {
 
 		setContentView(R.layout.activity_login);
 		getActionBar().setDisplayHomeAsUpEnabled(true);
-	
 
+		
 		// Set up the login form.
 		mEmail = getIntent().getStringExtra(EXTRA_EMAIL);
 		mEmailView = (EditText) findViewById(R.id.email);
@@ -103,6 +101,7 @@ public class LoginActivity extends Activity {
 		
 	}	
 	
+
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
