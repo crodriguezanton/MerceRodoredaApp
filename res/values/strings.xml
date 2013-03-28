@@ -7,10 +7,12 @@
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_register">Register</string>
     <string name="version_name">0.2.1 (Pre-Alfa)</string>
     <string name="username">No has iniciat sessió</string>
     <string name="myaccount">El meu perfil</string>
     <string name="NFC">Connecta\'t amb NFC</string>
     <string name="NFC_instructions">Apropa la teva targeta al telèfon</string>
+    <string name="menu_register_form">Formulari de Registre</string>
 
 </resources>

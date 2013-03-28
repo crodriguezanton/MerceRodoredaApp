@@ -52,6 +52,14 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.mercerodoreda.app.MainActivity" />
         </activity>
+        <activity
+            android:name="com.mercerodoreda.app.RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:parentActivityName="com.mercerodoreda.app.LoginActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mercerodoreda.app.LoginActivity" />
+        </activity>
     </application>
 
 </manifest>

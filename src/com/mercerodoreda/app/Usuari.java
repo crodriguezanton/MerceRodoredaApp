@@ -8,7 +8,7 @@ public class Usuari {
 	String _surname2;
 	String _email;
 	String _password;
-	String _emailpassword = _email + ":" + _password;  //utilitzat a LoginActivity.java
+	String _emailpassword = _email + ":" + _password;
 	String _type;
 	
 	public Usuari() {
